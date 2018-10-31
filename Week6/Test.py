@@ -1,9 +1,3 @@
-def mySum(*args):
-    print(args)
-    nowSum = 0
-    for now in args:
-        nowSum += now
-    return nowSum
-
-print(mySum(1, 2))
-print(mySum(1, 2, 3, 4))
+with open('c:\\1.png') as fin:
+    data_in = fin.read()
+    #text_in = data_in.decode('utf-8')

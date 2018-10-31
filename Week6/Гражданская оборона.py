@@ -20,7 +20,7 @@ def nearestTomb(n, m, distS, distM):
     distS_new.sort()
     distM_new.sort()
     res = [0]*n
-    k = 0
+
     for x, y in distS_new:
         while k < len(distM_new):
             if k == len(distM_new) - 1:
