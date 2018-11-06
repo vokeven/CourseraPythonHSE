@@ -6,10 +6,9 @@
 
 
 def olympiada():
-    with open('input.txt', 'r', encoding='utf-8') as in_file:
-        lines = in_file.readlines()
+    with open('c:\\input2.txt', 'r', encoding='utf-8') as f:
         res = [0] * 6
-        for line in lines:
+        for line in f:
             s = line.strip().split()
             if int(s[2]) == 9:
                 res[0] += int(s[3])
