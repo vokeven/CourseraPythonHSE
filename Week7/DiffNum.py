@@ -3,6 +3,6 @@
 
 
 if __name__ == '__main__':
-    n = set(map(int,input().split()))
+    n = set(map(int, input().split()))
     num = len(n)
     print(num)
